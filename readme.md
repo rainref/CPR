@@ -6,6 +6,9 @@ A comprehensive guide to our project's structure, including the data generation 
 
 The root directory includes three main folders:
 
+### Dataset Folder
+Due to size constraints, only the test set is shown. The complete dataset is available at [https://github.com/mciniselli/T5_Replication_Package](https://github.com/mciniselli/T5_Replication_Package).
+
 ### Generation Folder
 
 This folder contains scripts to generate data from LLM and to evaluate the results. Each file in this directory serves an independent function:
@@ -22,15 +25,6 @@ Each script is self-contained and responsible for a specific part of the data ge
 ### Refiner Folder
 
 This folder is a key component of the complete project and includes the implementation, training, and prediction functionalities of Refiner. For detailed information on how to use Refiner and an explanation of its capabilities, please see the `ReadMe.md` file located within this folder.
-
-### Results Folder
-
-This folder contains all the key experiment result predictions. It is organized into subfolders representing the three base models used in the project, where the results are based on these models. Naming conventions for these subfolders are as follows:
-
-- The format is `base_model_dataset-level_source`.
-- An example would be `gpt_block_C-P-1`, which represents the predictions from the GPT model on the block-level dataset after one round of C-P.
-
-The results are stored in an organized manner for easy access and review of the performance based on different models and dataset levels.
 
 ## Getting Started
 
