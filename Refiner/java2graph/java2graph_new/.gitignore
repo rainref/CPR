@@ -1,0 +1,5 @@
+target
+.idea
+error.txt
+*.json.gz
+test.0.json*

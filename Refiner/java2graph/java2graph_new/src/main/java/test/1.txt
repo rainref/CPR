@@ -1,0 +1,1 @@
+@Override\n    public void attributeDecl(String eName, String aName, String type, String mode, String value) throws SAXException{\n    if( <x>)\n    declHandler.attributeDecl(eName, aName, type, mode, value);\n    }
