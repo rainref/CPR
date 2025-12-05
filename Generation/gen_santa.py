@@ -17,7 +17,7 @@ checkpoint = args.model_name
 device = args.device # for GPU usage or "cpu" for CPU usage
 
 
-tokenizer = AutoTokenizer.from_pretrained(checkpoint,use_auth_token="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",trust_remote_code=True,revision="",mirror='tuna')
+tokenizer = AutoTokenizer.from_pretrained(checkpoint,use_auth_token="",trust_remote_code=True,revision="",mirror='tuna')
 model = AutoModelForCausalLM.from_pretrained(checkpoint, trust_remote_code=True).to(device)
 
 with open(args.in_file) as f:
